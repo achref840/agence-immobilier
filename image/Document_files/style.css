@@ -1,0 +1,68 @@
+nav {
+display: flex;
+justify-content: space-between;
+background-color:black;
+}
+nav ul li{
+    color: whitesmoke;
+}
+
+
+#content{
+    display:flex;
+    list-style: none;
+   padding: 10px;
+}
+#content li{
+    margin: 20px;
+}
+#content li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: size 2.5rem;
+    color: whitesmoke;
+}
+
+    .idea {
+        width: 78rem;
+    }
+.diva{
+    background-image:url('image/hyper.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 12rem;
+    opacity: 2;
+
+}
+input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: -250px;
+    margin-left: 90px;
+    font-size: 17px;
+  }
+  .davinci{
+      margin-right: 20rem;
+      text-align: center;
+      color: whitesmoke;
+      
+  }
+  .italy{
+      margin-right: 20rem;
+      text-align: center;
+      color:whitesmoke;
+  }
+.france{
+ text-align: center;
+}
+.tounis{
+    height: 300px;
+    width: 25rem;
+}
+.marina{
+    height: 300px;
+    width: 25rem;
+}

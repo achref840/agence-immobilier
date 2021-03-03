@@ -1,0 +1,135 @@
+body{
+    background-color: #F0F0F0;
+    font-family: 'Titillium Web', sans-serif;
+}
+nav {
+display: flex;
+justify-content: space-between;
+background-color:black;
+padding: 0.5px;
+}
+nav>ul>li{
+    color: whitesmoke;
+}
+
+
+.image{
+    padding-top: 10px;
+}
+
+#content{
+    display:flex;
+    list-style: none;
+   padding: 5px;
+}
+#content li{
+    margin: 20px;
+}
+#content li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: size 2.5rem;
+    color: whitesmoke;
+}
+
+    .idea {
+        width: 78rem;
+    }
+.diva{
+    background-image:url('image/hyper.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 12rem;
+   
+
+}
+.diva h1{
+    opacity: 3;
+}
+
+
+  
+  .davinci{
+      margin-right: 20rem;
+      text-align: center;
+      color: whitesmoke;
+      opacity: 3;
+      
+  }
+  .italy{
+      margin-right: 20rem;
+      text-align: center;
+      color:whitesmoke;
+  }
+.france{
+ text-align: center;
+}
+.tounis{
+    height: 300px;
+    width: 25rem;
+border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tounis:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.marina{
+    height: 300px;
+    width: 25rem;
+}
+.south{
+    height: 18rem;
+    width: 25rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.flex p {
+    text-align: center;
+        font-size: 2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: gray;
+
+}
+form select{
+        width:50%;
+        background-color:gray-;
+        color:rgb(165, 170, 159);
+        padding: 10px 20px;
+        margin: 4px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    input[type=text]:hover{
+    
+    }
+    .nord{
+        width: 25rem;
+        height: 20rem;
+    }
+    .flex2{
+        display:flex;
+        justify-content: space-around;
+    }
+    .container1{
+        display:flex;
+        justify-content: space-around;
+    }
+    .advantage{
+        display :flex;
+        justify-content: space-around;
+    }
+    .container{
+        background-color: #87CEEB;
+    }
+
+  
+
+
