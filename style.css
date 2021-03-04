@@ -80,10 +80,34 @@ border-radius: 15px;
 .marina{
     height: 300px;
     width: 25rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.marina:hover{
+    transform: scale(1.08);
+    cursor: pointer ;
 }
 .south{
     height: 18rem;
     width: 25rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.south:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.nord{
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.nord:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+    
+
+    
 }
 .flex{
     display: flex;
@@ -106,13 +130,11 @@ form select{
         border-radius: 4px;
         cursor: pointer;
     }
-    
-    input[type=text]:hover{
-    
-    }
+
     .nord{
         width: 25rem;
         height: 20rem;
+        
     }
     .flex2{
         display:flex;
@@ -120,16 +142,201 @@ form select{
     }
     .container1{
         display:flex;
-        justify-content: space-around;
+        flex-direction: column;
+    
     }
     .advantage{
         display :flex;
-        justify-content: space-around;
+
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 9rem;
+    
     }
     .container{
+        display: flex;
+        justify-content: space-around;
         background-color: #87CEEB;
     }
+    .title{
+        text-align: center;
+        font-size: 2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: gray;
 
-  
+    }
+    .map{
+        
+        border: 1px solid black;
+    }
+    .containerr{
+        display:flex;
+        justify-content: space-between;
+    }
+    .text{
+text-align: center;}
 
 
+
+.lists{
+display: flex;
+justify-content: space-around;
+}
+.titlelist{
+    text-align: center;
+}
+.list{
+  background-color: rgba(84, 107, 107, 0.884);
+}
+.app{
+    display: flex;
+}
+.appline{
+    margin-left: 20px;
+    margin-top: 5rem;
+    color: darkgreen;
+    font-size: large;
+    
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.719);
+    padding: 18px;
+}
+.def{
+    font-size: 15px;
+}
+.containfoot{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 100px;
+    height: 4rem;
+}
+.def{
+    margin-left: 50px;  
+}
+.copy{
+    color: white;
+}
+.copyrt{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.copyrt i{
+    margin-right: 6px;
+}
+.fa-copyright {
+    align-self: center;
+}
+.table{
+    display: block;
+}
+/************************page contact***************************************/
+.FONT{
+    font-size: 50px;
+    font-weight: bold;
+    color:crimson;
+    text-align: center;
+}
+.father{
+    color: black;
+    text-align: center;
+
+}
+.mother{
+    margin-top: 8rem;
+    height: 22rem;
+    
+    
+}
+.mother:hover{
+    transform: rotateY(160deg);
+}
+.backg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./image/statistics66.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.icon {
+    background-color: rgba(255, 255, 255, 0.644);
+    padding: 40px;
+    border-radius: 50%;
+    color: rgb(235, 10, 10);
+    font-weight: bold;
+}
+
+.contain1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.titlicon {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.percent {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.grandmother{
+    display:flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+.uncle{
+    color: red;
+    font-size: 3rem;
+}
+.footer{
+        background-color: rgba(0, 0, 0, 0.719);
+        padding: 18px;
+    }
+    .def{
+        font-size: 15px;
+    }
+    .containfoot{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .logo{
+        width: 100px;
+        height: 4rem;
+    }
+    .def{
+        margin-left: 50px;  
+    }
+    copy{
+        color: white;
+    }
+    .copyrt{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .copyrt i{
+        margin-right: 6px;
+    }
+    .fa-copyright {
+        align-self: center;
+    }
+    .title99{
+        color:rgb(19, 17, 17);
+        font-size: 5rem;
+        text-align: center;
+        border-bottom: solid;
+    }
+    
+
+    
